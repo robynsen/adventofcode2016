@@ -24,6 +24,3 @@ with open('aoc04-input.txt', 'r') as infile:
                 result += str(c)
             if "northpole object storage" in result:
                 print(sector_id)
-
-def has_abba(my_str):
-    
