@@ -37,14 +37,11 @@ for m in moves:
 
     for i in my_range:
         if y == prev_y:
-            if [i, y] in visitedsites and found == 0:
-                found = 1
-                print(abs(i) + abs(y))
-            visitedsites.append([i,y])
+            a, b = i, y
         else:
-            if [x, i] in visitedsites and found == 0:
-                found = 1
-                print(abs(x) + abs(i))
-            visitedsites.append([x,i])
-    prev_x = x
-    prev_y = y
+            a, b = x, i
+        if [a, b] in visitedsites and found == 0:
+            found = 1
+            print(abs(a) + abs(b))
+        visitedsites.append([a,b])
+    prev_x, prev_y = x, y
