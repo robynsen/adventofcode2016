@@ -12,5 +12,6 @@ while '-' in password:
                 #print("  > Updated password is:", ''.join(password))
         except:
             #print ('Not a valid password index: h[5] ==', h[5])
+            pass
     i += 1
 print("Password is:", ''.join(password))
