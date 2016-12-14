@@ -22,12 +22,10 @@ def rotate_col(my_matrix, index, diff):
     return my_matrix
 
 def print_parts(my_matrix):
-    i = 0
-    while i < 10:
+    for i in range(10):
         for j in range(6):
             print(''.join(map(str, my_matrix[j][i*5:(i+1)*5])))
         print ('-----')
-        i += 1
 
 with open('aoc08-input.txt', 'r') as infile:
     w, h = 50, 6
