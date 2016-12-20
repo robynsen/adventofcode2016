@@ -1,6 +1,3 @@
-file = open('aoc02-input.txt', 'r')
-moves = file.readline().strip().split(", ")
-
 with open('aoc02-input.txt') as fp:
     pos = 5
     for line in fp:
