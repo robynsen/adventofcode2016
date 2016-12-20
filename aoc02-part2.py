@@ -2,7 +2,6 @@ with open('aoc02-input.txt') as fp:
     pos = 5
     for line in fp:
         moves = list(line.strip())
-
         for m in moves:
             if m == 'U':
                 if pos in [3, 13]:
