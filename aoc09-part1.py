@@ -3,7 +3,6 @@ import collections
 
 with open('aoc09-input.txt', 'r') as infile:
     regex = re.compile(r"\(([0-9]+)x([0-9]+)\)")
-    sector_sum = 0
     for line in infile:
         new_list = []
         i = 0
