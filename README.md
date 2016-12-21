@@ -11,3 +11,11 @@ Advent of Code 2016 solutions
 | `aoc03-part2.py` | Similar to Part 1 solution. Now reads three rows of input at a time, and does a check similar to Part 1 but now on each of those three columns. |
 | `aoc04-part1.py`  | Uses a regex to get the name, sector ID, and checksum. Uses collections.Counter.most_common and a custom sort (numerical desc, alphabetical asc) to compare against the given checksum. |
 | `aoc04-part2.py`  | Similar to Part 1 solution. Now with shift decoder. |
+| `aoc05-part1.py`  | Simple password finder. |
+| `aoc05-part2.py`  | Similar to Part 1 solution, with updated password builder. |
+| `aoc06-part1.py`  | Uses zip to transpose input rows, with collections.Counter.most_common used on columns to find most common character. |
+| `aoc06-part2.py`  | Similar to Part 1 solution, with most_common used to find least common character. |
+| `aoc07-part1.py`  | Counts number of input rows satisfying the ABBA string requirements. |
+| `aoc07-part2.py`  | Similar to Part 1 solution, with updated match conditions. |
+| `aoc08-part1.py`  | Manual row rotation, with column rotation = transpose(rotate_row(transpose(A))) |
+| `aoc08-part2.py`  | Similar to Part 1 solution, with new function to print the final output. |
