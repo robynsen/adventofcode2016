@@ -19,3 +19,7 @@ Advent of Code 2016 solutions
 | `aoc07-part2.py`  | Similar to Part 1 solution, with updated match conditions. |
 | `aoc08-part1.py`  | Manual row rotation, with column rotation = transpose(rotate_row(transpose(A))) |
 | `aoc08-part2.py`  | Similar to Part 1 solution, with new function to print the final output. |
+| `aoc09-part1.py`  | Literal implementation of decompression. |
+| `aoc09-part2.py`  | Calculates the expected decompressed length only, without actually decompressing. |
+| `aoc10-part1.py`  | Uses a handful of dictionaries to store bot states and instructions. Ignores which chips go to which outputs, instead just removes them from the bot. |
+| `aoc10-part2.py`  | Similar to Part 1 solution, now storing which chips go to outputs 0-2, and running to completion (i.e. until there are no further chip pairs for bots to hand over). |
