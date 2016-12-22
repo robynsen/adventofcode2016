@@ -1,5 +1,5 @@
 # adventofcode2016
-Advent of Code 2016 solutions
+Advent of Code 2016 solutions, in Python since I haven't used it before.
 
 | File | Description |
 | --- | --- |
