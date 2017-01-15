@@ -23,3 +23,9 @@ Advent of Code 2016 solutions, in Python since I haven't used it before.
 | `aoc09-part2.py`  | Calculates the expected decompressed length only, without actually decompressing. |
 | `aoc10-part1.py`  | Uses a handful of dictionaries to store bot states and instructions. Ignores which chips go to which outputs, instead just removes them from the bot. |
 | `aoc10-part2.py`  | Similar to Part 1 solution, now storing which chips go to outputs 0-2, and running to completion (i.e. until there are no further chip pairs for bots to hand over). |
+| `aoc11-part1.py` |  |
+| `aoc11-part2.py` |  |
+| `aoc12-part1.py` |  |
+| `aoc12-part2.py` |  |
+| `aoc13-part1.py` | Breadth first search in Python to find distance from A to B. |
+| `aoc13-part2.py` | Minor change from Part 1. BFS in Python that builds the tree of all unique nodes within 50 hops of the origin. |
