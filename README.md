@@ -30,4 +30,4 @@ Advent of Code 2016 solutions, in Python since I haven't used it before.
 | `aoc13-part1.py` | Breadth first search in Python to find distance from A to B. |
 | `aoc13-part2.py` | Minor change from Part 1. BFS in Python that builds the tree of all unique nodes within 50 hops of the origin. |
 | `aoc14.py` | Generates and stores hashes so each hash is generated only once. Checks ahead for solutions when triplet characters are found (rather than behind when quintuplets are found) so that the script only computes strictly as many hashes as are required to find the solution. Solutions to Part 1 and 2 in the single file. |
-| `aoc15.py` | Finds solution via modulo arithmetic. Solutions to Part 1 and 2 in the single file. |
+| `aoc15.py` | Finds solution via modular arithmetic. Solutions to Part 1 and 2 in the single file. |
