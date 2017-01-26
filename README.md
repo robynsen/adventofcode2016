@@ -33,3 +33,4 @@ Advent of Code 2016 solutions, in Python since I haven't used it before.
 | `aoc15.py` | Finds solution via modular arithmetic. Solutions to Part 1 and 2 in the single file. |
 | `aoc16-part1.py` | Literal implementation of the string expansion and reduction. Life is too short to wait for this to solve Part 2. |
 | `aoc16-part2.py` | Uses a more efficient approach to building the dragon curve string, and reducing to the checksum. <br/><br/>Note the checksum calculation can be simplified as follows: <br/>1. Split the input string into `n`-many chunks of length `m`, where `n` is the largest odd divisor of `len(input)`<br/>2. For each of these `m`-long chunks of digits `abcd...x`, the chunk reduces to its final checksum digit using: sum of digits + half the length of input string + 1 % 2 = `(sum(a..x) + m/2 + 1) % 2` |
+| `aoc17.py` | BFS to find: <br/>1. Directions along the shortest path to the goal coordinates<br/>2. Length of longest path to the goal coordinates. |
