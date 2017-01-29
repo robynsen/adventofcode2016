@@ -89,7 +89,5 @@ if __name__ == '__main__':
     else:
         print ('Winner:\t', find_winner_part2(my_input))
 
-
-
     print ('------------------')
     print (" Elapsed time: %.5f s" % (time.monotonic() - my_start))
